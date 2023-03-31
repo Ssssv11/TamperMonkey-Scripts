@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  K8s Mapping script for Tampermonkey
 // @author       Ssssv
-// @match        http://devops.ks1.wezhuiyi.com/*
+// @match        *://devops.ks1.wezhuiyi.com/*
 // @grant        GM_setClipboard
 // ==/UserScript==
 
