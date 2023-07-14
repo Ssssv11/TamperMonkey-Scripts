@@ -41,7 +41,7 @@
       return;
     }
 
-    var kubectlCmd = `cd /data/jenkins/workspace/k8s-envs/${namespace}/opt`
+    var kubectlCmd = `cd /data/jenkins/workspace/k8s-envs/${namespace}/opt && cat .kube_config.yaml`
     var result = prompt('Copy and modify the command:', kubectlCmd);
 
     if (result !== null) {
